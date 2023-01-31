@@ -1,0 +1,127 @@
+.ant-switch-checked .ant-switch-handle {
+  left: calc(53%) !important;
+}
+
+@keyframes fadeEffect {
+  to {
+    opacity: 0
+  }
+}
+
+@keyframes waveEffect {
+  to {
+    box-shadow: 0 0 0 #096dd9;
+    box-shadow: 0 0 0 6px #096dd9
+  }
+}
+
+*[active='true'] {
+  &:after {
+    position: absolute;
+    inset: 0;
+    display: block;
+    border-radius: inherit;
+    box-shadow: 0 0 0 0 #096dd9;
+    opacity: .5;
+    animation: fadeEffect 2s cubic-bezier(.08, .82, .17, 1), waveEffect .4s cubic-bezier(.08, .82, .17, 1);
+    animation-fill-mode: forwards;
+    content: "";
+    pointer-events: none;
+  }
+}
+
+*[domBox="element-box"] {
+  // transform-origin: top left;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  text-decoration: inherit;
+  text-align: inherit;
+  letter-spacing: inherit;
+  border: none;
+  word-break: break-all;
+}
+
+// .frameImg{
+//     animation: heart-burst steps(28) 0.8s infinite both;
+// }
+// .frameImg-stop {
+//     animation-play-state: paused;
+// }
+@keyframes heart-burst {
+  0% {
+    background-position: 0%;
+  }
+
+  100% {
+    background-position: 100%;
+  }
+}
+
+.rde-editor-footer-toolbar {
+  position: relative;
+  z-index: 1000;
+}
+
+.ant-upload-list-item-actions .ant-btn {
+  background: transparent;
+}
+
+.ant-upload-list-item-actions .ant-btn:hover {
+  background: transparent;
+}
+
+.ant-btn {
+  color: #fff;
+  background: transparent;
+  border: none;
+}
+
+.ant-btn:focus {
+  color: #585858;
+  border-color: #585858;
+}
+
+.rde-editor-footer-toolbar-interaction .ant-btn:focus {
+  color: #fff;
+}
+
+.ant-btn:focus {
+  background: #e2e6eb;
+}
+
+.ant-btn:after {
+  border-color: #585858;
+}
+
+.rde-editor-footer-toolbar-interaction .ant-btn:hover {
+  background: transparent !important;
+  border-color: transparent !important;
+  color: #2188d1 !important;
+}
+
+.ant-btn:hover {
+  background: transparent !important;
+  border-color: transparent !important;
+  color: #2188d1 !important;
+}
+
+.rde-editor-footer-toolbar-interaction .ant-btn-primary {
+  background: transparent !important;
+  border-color: transparent !important;
+  color: #fff;
+}
+
+.rde-editor-footer-toolbar-interaction .ant-tooltip-open {
+  background: transparent !important;
+  border-color: transparent !important;
+  color: #2188d1 !important;
+}
+
+.ant-collapse {
+  background: transparent;
+}

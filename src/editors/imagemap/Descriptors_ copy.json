@@ -1,0 +1,543 @@
+{
+	"图块":[
+		{
+			"name": "传送带",
+			"description": "",
+			"type": "frameImg",
+			"icon": {
+				"prefix": "fas",
+				"name": "dice-d6"
+			},
+			"option": {
+				"superType": "element",
+				"type": "frameImg",
+				"width": 286,
+				"height": 208,
+				"code": {
+					"fixedSrc":"./images/传送带.png",
+					"animateSrc":"./images/传送带.gif",
+					"html": "<img class='frameImg' domBox='element-box'></img>",
+					"css":""
+				}
+			}
+		},
+		{
+			"name": "电机",
+			"description": "",
+			"type": "frameImg",
+			"icon": {
+				"prefix": "fas",
+				"name": "dice-d6"
+			},
+			"option": {
+				"superType": "element",
+				"type": "frameImg",
+				"width": 108,
+				"height": 106,
+				"code": {
+					"fixedSrc":"./images/电机.png",
+					"animateSrc":"./images/电机.gif",
+					"html": "<img class='frameImg' domBox='element-box'></img>",
+					"css":""
+				}
+			}
+		},
+		{
+			"name": "模块",
+			"typeId":"1",
+			"description": "",
+			"type": "frameImg",
+			"icon": {
+				"prefix": "fas",
+				"name": "dice-d6"
+			},
+			"option": {
+				"superType": "element",
+				"type": "frameImg",
+				"width": 158,
+				"height": 149,
+				"code": {
+					"fixedSrc":"./images/模块.png",
+					"animateSrc":"./images/模块.gif",
+					"html": "<img class='frameImg' domBox='element-box'></img>",
+					"css":""
+				}
+			}
+		},
+		{
+			"name": "电表",
+			"typeId":"2",
+			"description": "",
+			"type": "frameImg",
+			"icon": {
+				"prefix": "fas",
+				"name": "dice-d6"
+			},
+			"option": {
+				"superType": "element",
+				"type": "frameImg",
+				"width": 117,
+				"height": 125,
+				"code": {
+					"fixedSrc":"./images/电表.png",
+					"animateSrc":"./images/电表.png",
+					"html": "<img class='frameImg' domBox='element-box'></img>",
+					"css":""
+				}
+			}
+		},
+		{
+			"name": "红外探测器",
+			"typeId":"3",
+			"description": "",
+			"type": "frameImg",
+			"icon": {
+				"prefix": "fas",
+				"name": "dice-d6"
+			},
+			"option": {
+				"superType": "element",
+				"type": "frameImg",
+				"width": 87,
+				"height": 73,
+				"code": {
+					"fixedSrc":"./images/红外探测器.png",
+					"animateSrc":"./images/红外探测器.png",
+					"html": "<img class='frameImg' domBox='element-box'></img>",
+					"css":""
+				}
+			}
+		},
+		{
+			"name": "按钮",
+			"typeId":"4",
+			"description": "",
+			"type": "frameImg",
+			"icon": {
+				"prefix": "fas",
+				"name": "dice-d6"
+			},
+			"option": {
+				"superType": "element",
+				"type": "frameImg",
+				"width": 54,
+				"height": 49,
+				"code": {
+					"fixedSrc":"./images/按钮.png",
+					"animateSrc":"./images/按钮.png",
+					"html": "<img class='frameImg' domBox='element-box'></img>",
+					"css":""
+				}
+			}
+		},
+		{
+			"name": "电机",
+			"typeId":"5",
+			"description": "",
+			"type": "frameImg",
+			"icon": {
+				"prefix": "fas",
+				"name": "dice-d6"
+			},
+			"option": {
+				"superType": "element",
+				"type": "frameImg",
+				"width": 108,
+				"height": 106,
+				"code": {
+					"fixedSrc":"./images/电机.png",
+					"animateSrc":"./images/电机.png",
+					"html": "<img class='frameImg' domBox='element-box'></img>",
+					"css":""
+				}
+			}
+		},
+		{
+			"name": "红外传感器",
+			"typeId":"6",
+			"description": "",
+			"type": "frameImg",
+			"icon": {
+				"prefix": "fas",
+				"name": "dice-d6"
+			},
+			"option": {
+				"superType": "element",
+				"type": "frameImg",
+				"width": 102,
+				"height": 61,
+				"code": {
+					"fixedSrc":"./images/红外传感器.png",
+					"animateSrc":"./images/红外传感器.png",
+					"html": "<img class='frameImg' domBox='element-box'></img>",
+					"css":""
+				}
+			}
+		},
+		{
+			"name": "LED",
+			"typeId":"7",
+			"description": "",
+			"type": "frameImg",
+			"icon": {
+				"prefix": "fas",
+				"name": "dice-d6"
+			},
+			"option": {
+				"superType": "element",
+				"type": "frameImg",
+				"width": 54,
+				"height": 66,
+				"code": {
+					"fixedSrc":"./images/LED.png",
+					"animateSrc":"./images/LED2.png",
+					"html": "<img class='frameImg' domBox='element-box'></img>",
+					"css":""
+				}
+			}
+		}
+	],
+	"文本类": [
+		{
+			"name": "输入框",
+			"description": "",
+			"type": "input",
+			"icon": {
+				"prefix": "fas",
+				"name": "keyboard"
+			},
+			
+			"option": {
+				"superType": "element",
+				"type": "input",
+				"width": 159,
+				"height": 25,
+				"code": {
+					"html": "<input domBox='element-box'  type='text'/>"
+				}
+			}
+		},
+		{
+			"name": "文本",
+			"description": "",
+			"type": "text",
+			"icon": {
+				"prefix": "fas",
+				"name": "font"
+			},
+			"option": {
+				"type": "textbox",
+				"text": "",
+				"width": 60,
+				"height": 30,
+				"fontSize": 32,
+				"name": "New text"
+			}
+		}
+	],
+	"按钮类": [
+		{
+			"name": "按钮",
+			"description": "",
+			"type": "button",
+			"icon": {
+				"prefix": "fas",
+				"name": "audio-description"
+			},
+			"option": {
+				"superType": "element",
+				"type": "button",
+				"width": 80,
+				"height": 40,
+				"code": {
+					"html": "<div domBox='element-box' class='button-box'>按钮</div>",
+					"css":""
+			}
+		}
+	}
+],
+"图像类": [
+	{
+		"name": "图片",
+		"description": "",
+		"type": "frameImg",
+		"icon": {
+			"prefix": "fas",
+			"name": "map-marker-alt"
+		},
+		"option": {
+			"superType": "element",
+			"type": "frameImg",
+			"width": 69,
+			"height": 69,
+			"code": {
+				"html": "<img class='frameImg' domBox='element-box' src='./images/sample/transparentBg.png'></img>",
+				"css":""
+			}
+		}
+	},
+	{
+		"name": "图片",
+		"description": "",
+		"type": "image",
+		"icon": {
+			"prefix": "fas",
+			"name": "map-marker-alt"
+		},
+		"option": {
+			"superType": "element",
+			"type": "image",
+			"width": 80,
+			"height": 80,
+			"code": {
+				"html": "<img domBox='element-box' src='./images/sample/transparentBg.png'></img>",
+				"css":""
+			}
+		}
+	},
+	{
+		"name": "动态图片",
+		"description": "",
+		"type": "gifImg",
+		"icon": {
+			"prefix": "fas",
+			"name": "map-marker-alt"
+		},
+		"option": {
+			"superType": "element",
+			"type": "gifImg",
+			"width": 80,
+			"height": 80,
+			"code": {
+				"html": "<img domBox='element-box' src='./images/sample/earth.gif'></img>",
+				"css":""
+			}
+		}
+	},
+	{
+		"name": "gif",
+		"description": "",
+		"type": "gif",
+		"icon": {
+			"prefix": "fas",
+			"name": "map-marker-alt"
+		},
+		"option": {
+			"superType": "element",
+			"type": "gif",
+			"width": 80,
+			"height": 80
+		}
+	}
+],
+"图标": [
+	{
+		"name": "Marker",
+		"description": "",
+		"type": "marker",
+		"icon": {
+			"prefix": "fas",
+			"name": "flag"
+		},
+		"option": {
+			"type": "i-text",
+			"text": "\uf3c5",
+			"fontFamily": "Font Awesome 5 Free",
+			"fontWeight": 900,
+			"fontSize": 60,
+			"width": 30,
+			"height": 30,
+			"editable": false,
+			"name": "New marker"
+		}
+	}
+],
+"SHAPE": [
+	{
+		"name": "Triangle",
+		"description": "",
+		"type": "shape",
+		"icon": {
+			"prefix": "fas",
+			"name": "play",
+			"style": {
+				"transform": "rotate(270deg)"
+			}
+		},
+		"option": {
+			"type": "triangle",
+			"width": 30,
+			"height": 30,
+			"name": "New shape"
+		}
+	},
+	{
+		"name": "Rectangle",
+		"description": "",
+		"type": "shape",
+		"icon": {
+			"prefix": "fas",
+			"name": "stop"
+		},
+		"option": {
+			"type": "rect",
+			"width": 40,
+			"height": 40,
+			"name": "New shape"
+		}
+	},
+	{
+		"name": "Circle",
+		"description": "",
+		"type": "shape",
+		"icon": {
+			"prefix": "fas",
+			"name": "circle"
+		},
+		"option": {
+			"type": "circle",
+			"radius": 30,
+			"name": "New shape"
+		}
+	},
+	{
+		"name": "Cube",
+		"description": "",
+		"type": "shape",
+		"icon": {
+			"prefix": "fas",
+			"name": "cube"
+		},
+		"option": {
+			"type": "cube",
+			"width": 80,
+			"height": 80,
+			"name": "New shape"
+		}
+	}
+],
+"画图": [
+	{
+		"name": "多段线",
+		"description": "",
+		"type": "drawing",
+		"icon": {
+			"prefix": "fas",
+			"name": "draw-polygon"
+		},
+		"option": {
+			"type": "polygon",
+			"name": "New polygon"
+		}
+	},
+	{
+		"name": "折线",
+		"description": "",
+		"type": "drawing",
+		"icon": {
+			"prefix": "fas",
+			"name": "pen-fancy"
+		},
+		"option": {
+			"type": "polyLine",
+			"name": "New polyLine"
+		}
+	},
+	{
+		"name": "直线",
+		"description": "",
+		"type": "drawing",
+		"icon": {
+			"prefix": "fas",
+			"name": "minus"
+		},
+		"option": {
+			"type": "line",
+			"name": "New line"
+		}
+	},
+	{
+		"name": "箭头线",
+		"description": "",
+		"type": "drawing",
+		"icon": {
+			"prefix": "fas",
+			"name": "long-arrow-alt-right"
+		},
+		"option": {
+			"type": "arrow",
+			"name": "New arrow"
+		}
+	}
+],
+"元素": [
+	{
+		"name": "图表",
+		"description": "",
+		"type": "element",
+		"icon": {
+			"prefix": "fas",
+			"name": "chart-line"
+		},
+		"option": {
+			"superType": "element",
+			"type": "chart",
+			"name": "New chart",
+			"width": 356,
+			"height": 356
+		}
+	},
+	{
+		"name": "Iframe",
+		"description": "",
+		"type": "element",
+		"icon": {
+			"prefix": "fas",
+			"name": "window-maximize"
+		},
+		"option": {
+			"superType": "element",
+			"type": "iframe",
+			"width": 480,
+			"height": 270,
+			"name": "New iframe"
+		}
+	},
+	{
+		"name": "Video",
+		"description": "",
+		"type": "element",
+		"icon": {
+			"prefix": "fab",
+			"name": "youtube"
+		},
+		"option": {
+			"superType": "element",
+			"type": "video",
+			"width": 480,
+			"height": 270,
+			"name": "New video",
+			"autoplay": true,
+			"muted": true,
+			"loop": true
+		}
+	}
+],
+"SVG": [
+	{
+		"name": "Default",
+		"description": "",
+		"type": "default",
+		"icon": {
+			"prefix": "fas",
+			"name": "bezier-curve"
+		},
+		"option": {
+			"type": "svg",
+			"superType": "svg",
+			"name": "New SVG",
+			"loadType": "svg"
+		}
+	}
+]
+}

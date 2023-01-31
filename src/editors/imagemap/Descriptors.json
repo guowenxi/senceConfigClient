@@ -1,0 +1,224 @@
+[
+	{
+		"name": "输入框",
+		"description": "",
+		"type": "element",
+		"icon": {
+			"prefix": "fas",
+			"name": "map-marker-alt"
+		},
+		"option": {
+			"superType": "element",
+			"type": "element",
+			"width": 160,
+			"height": 60,
+			"code": {
+				"fixedSrc":"./images/按钮.png",
+				"animateSrc":"./images/按钮.png",
+				"html": "<input domBox='element-box' type='text'></input>",
+				"css":""
+			}
+		}
+	},
+	{
+		"name": "传送带",
+		"description": "",
+		"type": "frameImg",
+		"icon": {
+			"prefix": "fas",
+			"name": "map-marker-alt"
+		},
+		"option": {
+			"superType": "element",
+			"type": "frameImg",
+			"width": 286,
+			"height": 208,
+			"code": {
+				"fixedSrc":"./images/传送带.png",
+				"animateSrc":"./images/传送带.gif",
+				"html": "<img class='frameImg' domBox='element-box'></img>",
+				"css":""
+			}
+		}
+	},
+	{
+		"name": "电机",
+		"description": "",
+		"type": "frameImg",
+		"icon": {
+			"prefix": "fas",
+			"name": "map-marker-alt"
+		},
+		"option": {
+			"superType": "element",
+			"type": "frameImg",
+			"width": 108,
+			"height": 106,
+			"code": {
+				"fixedSrc":"./images/电机.png",
+				"animateSrc":"./images/电机.gif",
+				"html": "<img class='frameImg' domBox='element-box'></img>",
+				"css":""
+			}
+		}
+	},
+	{
+		"name": "模块",
+		"typeId":"1",
+		"description": "",
+		"type": "frameImg",
+		"icon": {
+			"prefix": "fas",
+			"name": "map-marker-alt"
+		},
+		"option": {
+			"superType": "element",
+			"type": "frameImg",
+			"width": 158,
+			"height": 149,
+			"code": {
+				"fixedSrc":"./images/模块.png",
+				"animateSrc":"./images/模块.gif",
+				"html": "<img class='frameImg' domBox='element-box'></img>",
+				"css":""
+			}
+		}
+	},
+	{
+		"name": "电表",
+		"typeId":"2",
+		"description": "",
+		"type": "frameImg",
+		"icon": {
+			"prefix": "fas",
+			"name": "map-marker-alt"
+		},
+		"option": {
+			"superType": "element",
+			"type": "frameImg",
+			"width": 117,
+			"height": 125,
+			"code": {
+				"fixedSrc":"./images/电表.png",
+				"animateSrc":"./images/电表.png",
+				"html": "<img class='frameImg' domBox='element-box'></img>",
+				"css":""
+			}
+		}
+	},
+	{
+		"name": "红外探测器",
+		"typeId":"3",
+		"description": "",
+		"type": "frameImg",
+		"icon": {
+			"prefix": "fas",
+			"name": "map-marker-alt"
+		},
+		"option": {
+			"superType": "element",
+			"type": "frameImg",
+			"width": 87,
+			"height": 73,
+			"code": {
+				"fixedSrc":"./images/红外探测器.png",
+				"animateSrc":"./images/红外探测器.png",
+				"html": "<img class='frameImg' domBox='element-box'></img>",
+				"css":""
+			}
+		}
+	},
+	{
+		"name": "按钮",
+		"typeId":"4",
+		"description": "",
+		"type": "frameImg",
+		"icon": {
+			"prefix": "fas",
+			"name": "map-marker-alt"
+		},
+		"option": {
+			"superType": "element",
+			"type": "frameImg",
+			"width": 54,
+			"height": 49,
+			"code": {
+				"fixedSrc":"./images/按钮.png",
+				"animateSrc":"./images/按钮.png",
+				"html": "<img class='frameImg' domBox='element-box'></img>",
+				"css":""
+			}
+		}
+	},
+
+
+
+	{
+		"name": "电机",
+		"typeId":"5",
+		"description": "",
+		"type": "frameImg",
+		"icon": {
+			"prefix": "fas",
+			"name": "map-marker-alt"
+		},
+		"option": {
+			"superType": "element",
+			"type": "frameImg",
+			"width": 108,
+			"height": 106,
+			"code": {
+				"fixedSrc":"./images/电机.png",
+				"animateSrc":"./images/电机.png",
+				"html": "<img class='frameImg' domBox='element-box'></img>",
+				"css":""
+			}
+		}
+	},
+
+	
+	{
+		"name": "红外传感器",
+		"typeId":"6",
+		"description": "",
+		"type": "frameImg",
+		"icon": {
+			"prefix": "fas",
+			"name": "map-marker-alt"
+		},
+		"option": {
+			"superType": "element",
+			"type": "frameImg",
+			"width": 102,
+			"height": 61,
+			"code": {
+				"fixedSrc":"./images/红外传感器.png",
+				"animateSrc":"./images/红外传感器.png",
+				"html": "<img class='frameImg' domBox='element-box'></img>",
+				"css":""
+			}
+		}
+	},
+	{
+		"name": "LED",
+		"typeId":"7",
+		"description": "",
+		"type": "frameImg",
+		"icon": {
+			"prefix": "fas",
+			"name": "map-marker-alt"
+		},
+		"option": {
+			"superType": "element",
+			"type": "frameImg",
+			"width": 54,
+			"height": 66,
+			"code": {
+				"fixedSrc":"./images/LED.png",
+				"animateSrc":"./images/LED2.png",
+				"html": "<img class='frameImg' domBox='element-box'></img>",
+				"css":""
+			}
+		}
+	}
+]
